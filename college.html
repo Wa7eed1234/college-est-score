@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Colleges</title>
+    </head>
+    <body>
+        <h1>Colleges that will take your score </h1>
+
+{% for college in items %}
+    <p>Name: {{ college.name }}, Score: {{ college.score }}</p>
+{% endfor %}
+        </ul>
+    </body>
+</html>
